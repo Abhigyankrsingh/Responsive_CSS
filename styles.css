@@ -68,7 +68,7 @@
 
 
 img {
-    height: 500px;
+    height: 200px;
     position: absolute;
     animation-name: bat-anime;
     animation-duration: 2s;
@@ -78,7 +78,7 @@ img {
 
 @keyframes bat-anime {
   
-    from{
+    /* from{
         left: 0;
         top: 0;
     }
@@ -87,5 +87,24 @@ img {
         left:80%;
         top: 50%;
     }
-    
+     */
+
+
+     0%{
+        left: 0;
+        top: 0%;
+
+    }
+    50%{
+        left: 80%;
+        top:0;
+
+        rotate: 180deg;
+    }
+
+   100%{
+      left:80%;
+      top:50%;
+   }
+
 }
