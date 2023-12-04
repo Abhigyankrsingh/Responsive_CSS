@@ -28,13 +28,13 @@
  } */
 
  #box{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
 
-    background-color: royalblue;
+    background-color: crimson;
  }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
     
     #box{
         height: 300px;
@@ -42,4 +42,4 @@
         background-color: crimson;
     }
     
-}
+} */
