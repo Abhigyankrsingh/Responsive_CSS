@@ -10,3 +10,19 @@
     height: 100%;
     width: 100%;
  }
+
+
+ #parent{
+    height: 500px;
+    width: 500px;
+
+    background-color: cyan;
+ }
+
+
+ #child {
+    height: 250px;
+    width: 250px;
+
+    background-color: salmon;
+ }
