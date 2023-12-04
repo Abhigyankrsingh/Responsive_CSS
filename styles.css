@@ -117,6 +117,9 @@
     width: 300px;
     background-color: crimson;
     position: relative;
+    animation-name: box-anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
 }
 
 
