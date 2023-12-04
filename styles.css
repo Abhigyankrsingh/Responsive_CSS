@@ -163,3 +163,29 @@ h1::after{
     color: royalblue;
     font-size: 50px;
 } */
+
+button{
+    background-color: black;
+    padding: 5vw;
+}
+
+button{
+   padding: 10px 20px;
+   background-color: transparent;
+   border: 2px solid cyan;
+   color: cyan;
+
+   font-weight: 600;
+
+}
+
+button::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+
+    background-color: red;
+    position: absolute;
+    left: 0;
+
+}
