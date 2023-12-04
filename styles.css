@@ -164,7 +164,7 @@ h1::after{
     font-size: 50px;
 } */
 
-button{
+body{
     background-color: black;
     padding: 5vw;
 }
@@ -175,7 +175,9 @@ button{
    border: 2px solid cyan;
    color: cyan;
 
-   font-weight: 600;
+   font-weight: 700;
+
+   position: relative;
 
 }
 
@@ -187,5 +189,5 @@ button::after{
     background-color: red;
     position: absolute;
     left: 0;
-
+    top: 0;
 }
