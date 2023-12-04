@@ -153,11 +153,13 @@
 
 h1 {
     font-size: 100px;
-    color: reds;
+    color: red;
 }
 
 
 
 h1::after{
     content: " and my dostniyo";
+    color: royalblue;
+    font-size: 50px;
 }
