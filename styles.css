@@ -122,6 +122,7 @@
     animation-delay: 1s;
     animation-fill-mode: forwards;
     animation-iteration-count: 3;
+    animation-direction: alternate;
 }
 
 
