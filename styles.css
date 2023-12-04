@@ -52,10 +52,14 @@
     
   from{
     left: 0;
+    background-color: red;
+    rotate: 0;
   }
 
   to {
-    left:60%
+    left:70%;
+    rotate: 360deg;
+    background-color: blue;
   }
 
 
