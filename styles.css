@@ -13,8 +13,8 @@
 
 
  #parent{
-    height: 500px;
-    width: 500px;
+    height: 30vw;
+    width: 30vw;
 
     background-color: cyan;
  }
