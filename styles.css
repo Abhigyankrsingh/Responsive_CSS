@@ -67,16 +67,16 @@
 } */
 
 
-img {
+/* img {
     height: 200px;
     position: absolute;
     animation-name: bat-anime;
     animation-duration: 2s;
     animation-delay: 1s;
 }
+ */
 
-
-@keyframes bat-anime {
+/* @keyframes bat-anime {
   
     /* from{
         left: 0;
@@ -90,7 +90,7 @@ img {
      */
 
 
-     0%{
+     /* 0%{
         left: 0;
         top: 0%;
 
@@ -107,4 +107,4 @@ img {
       top:50%;
    }
 
-}
+/* } */ 
