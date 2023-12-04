@@ -65,3 +65,27 @@
 
 
 } */
+
+
+img {
+    height: 500px;
+    position: absolute;
+    animation-name: bat-anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+
+@keyframes bat-anime {
+  
+    from{
+        left: 0;
+        top: 0;
+    }
+
+    to{
+        left:80%;
+        top: 50%;
+    }
+    
+}
