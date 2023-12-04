@@ -108,3 +108,23 @@
    }
 
 /* } */ 
+
+
+
+#box1{
+
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    position: relative;
+}
+
+
+#box2{
+
+    height: 300px;
+    width: 300px;
+    background-color: lawngreen;
+    position: relative;
+}
+
