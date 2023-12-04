@@ -36,6 +36,7 @@
 
     animation-name: anime;
     animation-duration: 2s;
+    animation-delay: 1s;
  }
 
 /* @media (max-width: 700px) {
