@@ -12,17 +12,34 @@
  }
 
 
- #parent{
+ /* #parent{
     height: 30vw;
     width: 30vw;
 
     background-color: cyan;
- }
+ } */
 
 
- #child {
+ /* #child {
     height: 50%;
     width: 50%;
 
     background-color: salmon;
+ } */
+
+ #box{
+    height: 500px;
+    width: 500px;
+
+    background-color: royalblue;
  }
+
+@media (max-width: 700px) {
+    
+    #box{
+        height: 300px;
+        width: 300px;
+        background-color: crimson;
+    }
+    
+}
