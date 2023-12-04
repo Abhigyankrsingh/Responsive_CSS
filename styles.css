@@ -21,8 +21,8 @@
 
 
  #child {
-    height: 250px;
-    width: 250px;
+    height: 50%;
+    width: 50%;
 
     background-color: salmon;
  }
