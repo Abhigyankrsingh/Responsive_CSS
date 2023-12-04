@@ -190,4 +190,11 @@ button::after{
     position: absolute;
     left: 0;
     top: 0;
+    transition: all linear 0.5s;
+    z-index:-1;
+}
+
+
+button:hover::after{
+    width: 100%;
 }
