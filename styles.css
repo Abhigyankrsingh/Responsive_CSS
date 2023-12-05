@@ -184,9 +184,9 @@ button{
 
 button::after{
     content: "";
-    height: 100%;
-    width: 0%;
-
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
     background-color: cyan;
     position: absolute;
     left: 0;
@@ -197,7 +197,8 @@ button::after{
 
 
 button:hover::after{
-    width: 100%;
+
+
 }
 
 button:hover{
