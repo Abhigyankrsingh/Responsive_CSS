@@ -173,10 +173,11 @@ button{
    padding: 10px 20px;
    background-color: transparent;
    border: 2px solid cyan;
+   mix-blend-mode: difference;
    color: cyan;
 
    font-weight: 700;
-
+   transition: all linear 0.5s;
    position: relative;
 
 }
@@ -186,7 +187,7 @@ button::after{
     height: 100%;
     width: 0%;
 
-    background-color: red;
+    background-color: cyan;
     position: absolute;
     left: 0;
     top: 0;
@@ -197,4 +198,8 @@ button::after{
 
 button:hover::after{
     width: 100%;
+}
+
+button:hover{
+    color: black;
 }
